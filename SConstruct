@@ -5,7 +5,7 @@
 import glob, os.path, sys
 import lsst.SConsUtils as scons
 
-env = scons.makeEnv("obs_test_subaru",
+env = scons.makeEnv("testdata_subaru",
                     r"$HeadURL$",
                     [
                     ])
